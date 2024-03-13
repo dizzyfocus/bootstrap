@@ -1,8 +1,6 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
-  name: cert-manager-channel
-  namespace: cert-manager
-spec:
-  type: Git
-  pathname: "https://github.com/dizzyfocus/bootstrap/bootstrap/cluster-resources/in-cluster"
+  name: ansible-operator-channel
+  namespace: ansible-operator
+

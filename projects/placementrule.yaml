@@ -2,9 +2,9 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   name: prod-clusters
-  namespace: cert-manager
+  namespace: ansible-operator
 spec:
   clusterSelector:
     matchLabels:
-      environment: prod
+      environment: "prod"
 
